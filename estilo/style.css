@@ -4,14 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root {
+:root { /*root é p criar variaveis*/
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
-
 }
 
-* {
+* { /*o astesrisco dessa forma cria uma configuração para a pág inteira*/
     margin: 0px;
     padding: 0px;
 }
@@ -30,7 +29,7 @@ header {
 
 header > h1 {
     padding-top: 50px;
-    font-variant: small-caps;
+    font-variant: small-caps; /*para as letras ficarems em maiúculas */
     font-family: var(--fonte2);
     font-size: 10vw;
 }
